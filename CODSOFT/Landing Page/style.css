@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+ 
+.conatiner{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(34, 165, 201, 0.256),rgba(36, 1, 40, 0.516)), url(images/salvador-escalante-EfjlkpoGjs4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+
+
+nav{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    background: #cfcaff;
+}
+ 
+
+.logo{
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-weight: 500;
+}
+
+.btn{
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: #000000;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn img{
+    width: 20px;
+    margin-right: 10px;
+    
+}
+
+.content{
+    margin-top: 15%;
+    color: #fff;
+    max-width: 620px;
+}
+
+.content h1{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 85px;
+    margin-bottom: 25px;
+}
+
+.content form{
+    display: flex;
+    align-items: center;
+    background: #cfcaff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.content form input{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.content form .btn{
+    font-size: 15px;
+    padding: 10px 30px;
+}
